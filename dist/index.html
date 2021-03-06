@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Accueil - Puissance 4</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="./favicon.png" />
+  <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" rel="stylesheet" />
+</head>
+
+
+  <body class="home-page">
+    <div class="containe">
+    <div class="forms-container">
+        <div class="signin">
+            <form action="_menu.tml" class="sign-in connect-form">
+                <div>
+                    <h2 class="title">Connection</h2>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="pseudo" id="speudo" placeholder="Entre votre pseudo">
+                </div>
+                <div>
+                    <input type="submit" value="Connection" class="btn solid">
+                </div>
+                
+            </form>
+
+
+            <form action="_menu.html" class="sign-in sign-in-form">
+                <div>
+                    <h2 class="title">Inscription</h2>
+                </div>
+                <div class="input-field">
+                    <i class="far fa-user"></i>
+                    <input type="text" name="pseudo" id="speudo" placeholder="Choisissez votre pseudo">
+                </div>
+                <div>
+                    <input type="submit" value="Inscription" class="btn solid">
+                </div>
+                
+            </form>
+
+        </div>
+    </div>
+
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+                <h3>Puissance 4</h3>
+                <p>Si vous n'est pas encore inscrit</p>
+                <button id="connect-btn" class="btn transparent">Se connecter</button>
+            </div>
+            <img src="../img/undraw_gaming_6oy3.svg" alt="" class="image">
+        </div>
+
+        <div class="panel right-panel">
+            <div class="content">
+                <h3>Puissance 4</h3>
+                <p>Si vous est déjà inscrit</p>
+                <button id="inscrip-btn" class="btn transparent">Inscription</button>
+            </div>
+            <img src="../img/undraw_video_game_night_8h8m.svg" alt="" class="image">
+        </div>
+
+    </div>
+
+</div>
+
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/fontawesome/js/all.min.js"></script>
+<script src="js/application.js"></script>
+<script src="js/slide.js"></script>
+  </body>
+</html>
