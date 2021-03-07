@@ -6,5 +6,5 @@ connect_btn.addEventListener('click', ()=>{
     containe.classList.add("up-mode");
 })
 inscrip_btn.addEventListener('click', ()=>{
-    containe.classList.add("up-mode");
+    containe.classList.remove("up-mode");
 })
