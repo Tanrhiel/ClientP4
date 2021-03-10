@@ -1,0 +1,42 @@
+nav{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-image: linear-gradient(-45deg, #016ea1 1%,#00bfa6 99%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    ul{
+        width: 100%;
+
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                color: #fff;
+                font-size: 1.5rem;
+            }
+            button{
+                background: none;
+                border: none;
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: 600;
+                width: auto;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+.menu-containe{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    
+}

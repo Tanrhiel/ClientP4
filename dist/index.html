@@ -16,7 +16,7 @@
     <div class="containe">
     <div class="forms-container">
         <div class="signin">
-            <form action="_menu.tml" class="sign-in connect-form">
+            <form action="menu.html" class="sign-in connect-form">
                 <div>
                     <h2 class="title">Connection</h2>
                 </div>
@@ -24,7 +24,7 @@
                     <div class="icon">
                         <i class="fas fa-user"></i>
                     </div>
-                    <input type="text" name="pseudo" id="speudo" placeholder="Entre votre pseudo">
+                    <input id="identifiant" type="text" name="identifiant" placeholder="Votre identifiant">
                 </div>
                 <div>
                     <input type="submit" value="Connection" class="btn solid">
@@ -33,7 +33,7 @@
             </form>
 
 
-            <form action="_menu.html" class="sign-in sign-in-form">
+            <form action="menu.html" class="sign-in sign-in-form">
                 <div>
                     <h2 class="title">Inscription</h2>
                 </div>
@@ -41,10 +41,10 @@
                     <div class="icon">
                         <i class="fas fa-user"></i>
                     </div>
-                    <input type="text" name="pseudo" id="speudo" placeholder="Choisissez votre pseudo">
+                    <input id="pseudo" type="text" name="pseudo" placeholder="Votre pseudonyme" />
                 </div>
                 <div>
-                    <input type="submit" value="Inscription" class="btn solid">
+                    <button onclick="inscription()" type="submit" class="btn solid">Inscription</button>
                 </div>
                 
             </form>
@@ -57,7 +57,8 @@
             <div class="content">
                 <h3>Puissance 4</h3>
                 <p>Si vous n'est pas encore inscrit</p>
-                <button id="connect-btn" class="btn transparent">Se connecter</button>
+                
+                <button id="connect-btn" class="btn transparent">S'inscription</button>
             </div>
             <img src="../img/undraw_gaming_6oy3.svg" alt="" class="image">
         </div>
@@ -66,7 +67,7 @@
             <div class="content">
                 <h3>Puissance 4</h3>
                 <p>Si vous est déjà inscrit</p>
-                <button id="inscrip-btn" class="btn transparent">Inscription</button>
+                <button id="inscrip-btn" class="btn transparent">Se connecter</button>
             </div>
             <img src="../img/undraw_video_game_night_8h8m.svg" alt="" class="image">
         </div>
@@ -76,9 +77,9 @@
 </div>
 
     
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/bootstrap.min.js"></script>
-<script src="vendor/fontawesome/js/all.min.js"></script>
+<script src="vendor/fontawesome/js/all.min.js"></script> -->
 <script src="js/application.js"></script>
 <script src="js/slide.js"></script>
   </body>
